@@ -20,7 +20,7 @@ myForm.addEventListener('submit', e => {
     console.log("-----------")
     console.log("")
 
-    // yet if you interate of formData with 'of' it will show you the keys as though you've called the entries obnect on it
+    // yet if you iterate of formData with 'of' it will show you the keys as though you've called the entries method of the Object class with it as the argument
     for (let key of formData) {
         console.log("key ", key)
     }
